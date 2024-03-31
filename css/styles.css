@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: Karla, sans-serif;
+  background-color: #F5F7FB;
+}/*# sourceMappingURL=styles.css.map */
