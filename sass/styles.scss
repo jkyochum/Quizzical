@@ -6,12 +6,16 @@ body {
     color: $page-text-color;
 }
 
-.front-page-wrapper {
+.front-page-wrapper,
+.trivia-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.front-page-wrapper {
     gap: 10px;
 }
 
@@ -60,3 +64,5 @@ body {
 .control-button:active {
     background-color: darken($control-button-color, 7);
 }
+
+.trivia-wrapper {}
