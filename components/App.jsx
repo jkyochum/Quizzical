@@ -1,8 +1,11 @@
-
+import "../sass/styles.scss"
+import FrontPage from "./FrontPage"
 
 export default function App() {
 
     return (
-        <h1>hello world</h1>
+        <div>
+            <FrontPage />
+        </div>
     )
 }
