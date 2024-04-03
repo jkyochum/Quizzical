@@ -11,9 +11,17 @@ export default function App() {
 
     return (
         <div>
-            <img className="yellow-blob" src="./images/blob-yellow.png" alt="yellow blob" />
+            <img
+                className={`yellow-blob ${frontPageActive ? "yellow-blob-front-page" : "yellow-blob-active-game"}`}
+                src="./images/blob-yellow.png"
+                alt="yellow blob"
+            />
             {frontPageActive && <FrontPage toggleFrontPage={toggleFrontPage} />}
-            <img className="blue-blob" src="./images/blob-blue.png" alt="blue blob" />
+            <img
+                className={`blue-blob ${frontPageActive ? "blue-blob-front-page" : "blue-blob-active-game"}`}
+                src="./images/blob-blue.png"
+                alt="blue blob"
+            />
         </div>
     )
 }
