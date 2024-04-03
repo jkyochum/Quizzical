@@ -1,0 +1,15 @@
+@import 'resets', 'variables';
+
+body {
+    font-family: Karla, sans-serif;
+    background-color: $page-background-color;
+    color: $text-color;
+}
+
+.front-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
