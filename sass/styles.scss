@@ -20,14 +20,24 @@ body {
     position: fixed;
 }
 
-.yellow-blob {
+.yellow-blob-front-page {
     top: 0;
     right: 0;
 }
 
-.blue-blob {
+.yellow-blob-active-game {
+    top: -40px;
+    right: -30px;
+}
+
+.blue-blob-front-page {
     bottom: 0;
     left: 0;
+}
+
+.blue-blob-active-game {
+    bottom: -45px;
+    left: -45px;
 }
 
 .front-page-description {
