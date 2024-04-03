@@ -3,7 +3,7 @@
 body {
     font-family: Karla, sans-serif;
     background-color: $page-background-color;
-    color: $text-color;
+    color: $page-text-color;
 }
 
 .front-page-wrapper {
@@ -15,18 +15,38 @@ body {
     gap: 10px;
 }
 
+.yellow-blob,
+.blue-blob {
+    position: fixed;
+}
+
+.yellow-blob {
+    top: 0;
+    right: 0;
+}
+
+.blue-blob {
+    bottom: 0;
+    left: 0;
+}
+
 .front-page-description {
     font-weight: 400;
     font-size: 1.2em;
 }
 
-.start-button {
+.control-button {
     margin-top: 20px;
-    background-color: #4D5B9E;
-    color: #F5F7FB;
+    background-color: $control-button-color;
+    color: $control-button-text-color;
     width: 193px;
     height: 52px;
     border: none;
     border-radius: 17px;
     font-size: 1em;
+    cursor: pointer;
+}
+
+.control-button:active {
+    background-color: darken($control-button-color, 7);
 }
